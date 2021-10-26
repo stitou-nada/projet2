@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <form > 
+            <h1>ETAPE 1</h1>
+               <label id="nom">Nom:</label>
+               <input id="nom" type="text" placeholder="Entrer votre nom" required      minlength="5">
+               <label id="Prénome">Prénome:</label>
+               <input id="Prénome" type="text" placeholder="Entrer votre prénome" required      minlength="5">
+               <label id="date">Date de naissance:</label>
+               <input type="date" >
+            <h1>ETAPE 2</h1>
+               <label id="Email">Email:</label>
+               <input id="Email" type="email" placeholder="Entrer votre email" required   pattern=".*@gmail.com">
+               <input type="submit" value="ok">
+               <input type="reset" value="Annuler">
+          
+            <h1>ETAPE 3</h1>
+               <input type="checkbox" value="Bureautique"> Bureautique
+               <br/>
+               <input type="checkbox" value="Programation"> programmation
+               <br/>
+               <input type="checkbox" value="Infographie"> Infographie
+               <br/>
+            <h1>ETAPE 4</h1>
+               <input type="radio" value="Bureautique" name="formation"> Bureautique
+               <br/>
+               <input type="radio" value="Programation" name="formation"> programmation
+               <br/>
+               <input type="radio" value="Infographie" name="formation"> Infographie
+               <br/>
+            <h1>ETAPE 5</h1>
+               <input type="color" value="Bureautique" name="formation" checked> Bureautique
+               <input type="color" value="Programation" name="formation"> programmation
+               <input type="color" value="Infographie" name="formation"> Infographie
+            <h1>ETAPE 6</h1>
+                <textarea cols="40" rows="4"></textarea >
+  
+            <h1>ETAPE 7</h1>
+                <select >
+                    <option value="1"> Tanger  </option>
+                    <option value="2"> Chaoune </option>
+                    <option value="3"> Rabat</option>
+                </select>
+        </form>
+    </body>
+</html>
